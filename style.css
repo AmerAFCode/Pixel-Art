@@ -1,3 +1,11 @@
+#palette {
+    display: flex;
+    justify-content: center;
+    gap:5px;
+
+    margin: 0 0 1rem 0
+}
+
 .pixel-color {
     display: inline-block;
     width: 32px;
@@ -6,12 +14,16 @@
     border: 2px solid black;
 }
 
-#current-pixel-color {
+/* #current-pixel-color {
     display: inline-block;
     width: 32px;
     height: 32px;
 
     border: 2px solid black;
+} */
+#table-container {
+    display: flex;
+    justify-content: center;
 }
 
 #art-table {
